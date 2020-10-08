@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5454CE252F0951008A173A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454CD252F0951008A173A /* AppDelegate.swift */; };
+		CD5454D0252F0951008A173A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454CF252F0951008A173A /* SceneDelegate.swift */; };
+		CD5454D2252F0951008A173A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454D1252F0951008A173A /* ViewController.swift */; };
+		CD5454D5252F0951008A173A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5454D3252F0951008A173A /* Main.storyboard */; };
+		CD5454D8252F0951008A173A /* SwiftLoginComponent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD5454D6252F0951008A173A /* SwiftLoginComponent.xcdatamodeld */; };
+		CD5454DA252F0963008A173A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5454D9252F0963008A173A /* Assets.xcassets */; };
+		CD5454DD252F0963008A173A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5454DB252F0963008A173A /* LaunchScreen.storyboard */; };
+		CD5454E8252F0963008A173A /* SwiftLoginComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454E7252F0963008A173A /* SwiftLoginComponentTests.swift */; };
+		CD5454F3252F0963008A173A /* SwiftLoginComponentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454F2252F0963008A173A /* SwiftLoginComponentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5454E4252F0963008A173A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5454C2252F0951008A173A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5454C9252F0951008A173A;
+			remoteInfo = SwiftLoginComponent;
+		};
+		CD5454EF252F0963008A173A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5454C2252F0951008A173A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5454C9252F0951008A173A;
+			remoteInfo = SwiftLoginComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD5454CA252F0951008A173A /* SwiftLoginComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLoginComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5454CD252F0951008A173A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD5454CF252F0951008A173A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD5454D1252F0951008A173A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD5454D4252F0951008A173A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD5454D7252F0951008A173A /* SwiftLoginComponent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftLoginComponent.xcdatamodel; sourceTree = "<group>"; };
+		CD5454D9252F0963008A173A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5454DC252F0963008A173A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5454DE252F0963008A173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5454E3252F0963008A173A /* SwiftLoginComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLoginComponentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5454E7252F0963008A173A /* SwiftLoginComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoginComponentTests.swift; sourceTree = "<group>"; };
+		CD5454E9252F0963008A173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5454EE252F0963008A173A /* SwiftLoginComponentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLoginComponentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5454F2252F0963008A173A /* SwiftLoginComponentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoginComponentUITests.swift; sourceTree = "<group>"; };
+		CD5454F4252F0963008A173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5454C7252F0951008A173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5454E0252F0963008A173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5454EB252F0963008A173A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5454C1252F0951008A173A = {
+			isa = PBXGroup;
+			children = (
+				CD5454CC252F0951008A173A /* SwiftLoginComponent */,
+				CD5454E6252F0963008A173A /* SwiftLoginComponentTests */,
+				CD5454F1252F0963008A173A /* SwiftLoginComponentUITests */,
+				CD5454CB252F0951008A173A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5454CB252F0951008A173A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5454CA252F0951008A173A /* SwiftLoginComponent.app */,
+				CD5454E3252F0963008A173A /* SwiftLoginComponentTests.xctest */,
+				CD5454EE252F0963008A173A /* SwiftLoginComponentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5454CC252F0951008A173A /* SwiftLoginComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CD5454CD252F0951008A173A /* AppDelegate.swift */,
+				CD5454CF252F0951008A173A /* SceneDelegate.swift */,
+				CD5454D1252F0951008A173A /* ViewController.swift */,
+				CD5454D3252F0951008A173A /* Main.storyboard */,
+				CD5454D9252F0963008A173A /* Assets.xcassets */,
+				CD5454DB252F0963008A173A /* LaunchScreen.storyboard */,
+				CD5454DE252F0963008A173A /* Info.plist */,
+				CD5454D6252F0951008A173A /* SwiftLoginComponent.xcdatamodeld */,
+			);
+			path = SwiftLoginComponent;
+			sourceTree = "<group>";
+		};
+		CD5454E6252F0963008A173A /* SwiftLoginComponentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5454E7252F0963008A173A /* SwiftLoginComponentTests.swift */,
+				CD5454E9252F0963008A173A /* Info.plist */,
+			);
+			path = SwiftLoginComponentTests;
+			sourceTree = "<group>";
+		};
+		CD5454F1252F0963008A173A /* SwiftLoginComponentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5454F2252F0963008A173A /* SwiftLoginComponentUITests.swift */,
+				CD5454F4252F0963008A173A /* Info.plist */,
+			);
+			path = SwiftLoginComponentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5454C9252F0951008A173A /* SwiftLoginComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5454F7252F0963008A173A /* Build configuration list for PBXNativeTarget "SwiftLoginComponent" */;
+			buildPhases = (
+				CD5454C6252F0951008A173A /* Sources */,
+				CD5454C7252F0951008A173A /* Frameworks */,
+				CD5454C8252F0951008A173A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLoginComponent;
+			productName = SwiftLoginComponent;
+			productReference = CD5454CA252F0951008A173A /* SwiftLoginComponent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5454E2252F0963008A173A /* SwiftLoginComponentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5454FA252F0963008A173A /* Build configuration list for PBXNativeTarget "SwiftLoginComponentTests" */;
+			buildPhases = (
+				CD5454DF252F0963008A173A /* Sources */,
+				CD5454E0252F0963008A173A /* Frameworks */,
+				CD5454E1252F0963008A173A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5454E5252F0963008A173A /* PBXTargetDependency */,
+			);
+			name = SwiftLoginComponentTests;
+			productName = SwiftLoginComponentTests;
+			productReference = CD5454E3252F0963008A173A /* SwiftLoginComponentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5454ED252F0963008A173A /* SwiftLoginComponentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5454FD252F0963008A173A /* Build configuration list for PBXNativeTarget "SwiftLoginComponentUITests" */;
+			buildPhases = (
+				CD5454EA252F0963008A173A /* Sources */,
+				CD5454EB252F0963008A173A /* Frameworks */,
+				CD5454EC252F0963008A173A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5454F0252F0963008A173A /* PBXTargetDependency */,
+			);
+			name = SwiftLoginComponentUITests;
+			productName = SwiftLoginComponentUITests;
+			productReference = CD5454EE252F0963008A173A /* SwiftLoginComponentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5454C2252F0951008A173A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Prakash Sengirayar";
+				TargetAttributes = {
+					CD5454C9252F0951008A173A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CD5454E2252F0963008A173A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CD5454C9252F0951008A173A;
+					};
+					CD5454ED252F0963008A173A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CD5454C9252F0951008A173A;
+					};
+				};
+			};
+			buildConfigurationList = CD5454C5252F0951008A173A /* Build configuration list for PBXProject "SwiftLoginComponent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5454C1252F0951008A173A;
+			productRefGroup = CD5454CB252F0951008A173A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5454C9252F0951008A173A /* SwiftLoginComponent */,
+				CD5454E2252F0963008A173A /* SwiftLoginComponentTests */,
+				CD5454ED252F0963008A173A /* SwiftLoginComponentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5454C8252F0951008A173A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5454DD252F0963008A173A /* LaunchScreen.storyboard in Resources */,
+				CD5454DA252F0963008A173A /* Assets.xcassets in Resources */,
+				CD5454D5252F0951008A173A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5454E1252F0963008A173A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5454EC252F0963008A173A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5454C6252F0951008A173A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5454D2252F0951008A173A /* ViewController.swift in Sources */,
+				CD5454CE252F0951008A173A /* AppDelegate.swift in Sources */,
+				CD5454D8252F0951008A173A /* SwiftLoginComponent.xcdatamodeld in Sources */,
+				CD5454D0252F0951008A173A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5454DF252F0963008A173A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5454E8252F0963008A173A /* SwiftLoginComponentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5454EA252F0963008A173A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5454F3252F0963008A173A /* SwiftLoginComponentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5454E5252F0963008A173A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5454C9252F0951008A173A /* SwiftLoginComponent */;
+			targetProxy = CD5454E4252F0963008A173A /* PBXContainerItemProxy */;
+		};
+		CD5454F0252F0963008A173A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5454C9252F0951008A173A /* SwiftLoginComponent */;
+			targetProxy = CD5454EF252F0963008A173A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD5454D3252F0951008A173A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5454D4252F0951008A173A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5454DB252F0963008A173A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5454DC252F0963008A173A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5454F5252F0963008A173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD5454F6252F0963008A173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5454F8252F0963008A173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftLoginComponent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.SwiftLoginComponent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD5454F9252F0963008A173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftLoginComponent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.SwiftLoginComponent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD5454FB252F0963008A173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftLoginComponentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.SwiftLoginComponentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLoginComponent.app/SwiftLoginComponent";
+			};
+			name = Debug;
+		};
+		CD5454FC252F0963008A173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftLoginComponentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.SwiftLoginComponentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLoginComponent.app/SwiftLoginComponent";
+			};
+			name = Release;
+		};
+		CD5454FE252F0963008A173A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftLoginComponentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.SwiftLoginComponentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftLoginComponent;
+			};
+			name = Debug;
+		};
+		CD5454FF252F0963008A173A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftLoginComponentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakash.SwiftLoginComponentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftLoginComponent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5454C5252F0951008A173A /* Build configuration list for PBXProject "SwiftLoginComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5454F5252F0963008A173A /* Debug */,
+				CD5454F6252F0963008A173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5454F7252F0963008A173A /* Build configuration list for PBXNativeTarget "SwiftLoginComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5454F8252F0963008A173A /* Debug */,
+				CD5454F9252F0963008A173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5454FA252F0963008A173A /* Build configuration list for PBXNativeTarget "SwiftLoginComponentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5454FB252F0963008A173A /* Debug */,
+				CD5454FC252F0963008A173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5454FD252F0963008A173A /* Build configuration list for PBXNativeTarget "SwiftLoginComponentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5454FE252F0963008A173A /* Debug */,
+				CD5454FF252F0963008A173A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD5454D6252F0951008A173A /* SwiftLoginComponent.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD5454D7252F0951008A173A /* SwiftLoginComponent.xcdatamodel */,
+			);
+			currentVersion = CD5454D7252F0951008A173A /* SwiftLoginComponent.xcdatamodel */;
+			path = SwiftLoginComponent.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD5454C2252F0951008A173A /* Project object */;
+}
