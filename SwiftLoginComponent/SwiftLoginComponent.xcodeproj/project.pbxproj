@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD44B3F72531B01B00F939B3 /* HolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B3F62531B01B00F939B3 /* HolderViewController.swift */; };
+		CD44B3F82531B01B00F939B3 /* HolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B3F62531B01B00F939B3 /* HolderViewController.swift */; };
+		CD44B3F92531B01B00F939B3 /* HolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B3F62531B01B00F939B3 /* HolderViewController.swift */; };
+		CD44B3FC2531B05500F939B3 /* HolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD44B3FB2531B05500F939B3 /* HolderView.xib */; };
+		CD44B3FD2531B05500F939B3 /* HolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD44B3FB2531B05500F939B3 /* HolderView.xib */; };
+		CD44B3FE2531B05500F939B3 /* HolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD44B3FB2531B05500F939B3 /* HolderView.xib */; };
+		CD44B4012531B1F500F939B3 /* SCUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B4002531B1F500F939B3 /* SCUtilities.swift */; };
+		CD44B4022531B1F500F939B3 /* SCUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B4002531B1F500F939B3 /* SCUtilities.swift */; };
+		CD44B4032531B1F500F939B3 /* SCUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B4002531B1F500F939B3 /* SCUtilities.swift */; };
+		CD44B40625320EE300F939B3 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B40525320EE300F939B3 /* SCButton.swift */; };
+		CD44B40725320EE300F939B3 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B40525320EE300F939B3 /* SCButton.swift */; };
+		CD44B40825320EE300F939B3 /* SCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44B40525320EE300F939B3 /* SCButton.swift */; };
 		CD5454CE252F0951008A173A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454CD252F0951008A173A /* AppDelegate.swift */; };
 		CD5454D0252F0951008A173A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454CF252F0951008A173A /* SceneDelegate.swift */; };
 		CD5454D2252F0951008A173A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454D1252F0951008A173A /* ViewController.swift */; };
@@ -16,6 +28,11 @@
 		CD5454DD252F0963008A173A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5454DB252F0963008A173A /* LaunchScreen.storyboard */; };
 		CD5454E8252F0963008A173A /* SwiftLoginComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454E7252F0963008A173A /* SwiftLoginComponentTests.swift */; };
 		CD5454F3252F0963008A173A /* SwiftLoginComponentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5454F2252F0963008A173A /* SwiftLoginComponentUITests.swift */; };
+		CD545501252F397A008A173A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD545500252F397A008A173A /* UserModel.swift */; };
+		CD545502252F397A008A173A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD545500252F397A008A173A /* UserModel.swift */; };
+		CD545547252F8B26008A173A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD545546252F8B26008A173A /* User.swift */; };
+		CD545548252F8B26008A173A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD545546252F8B26008A173A /* User.swift */; };
+		CD545549252F8B26008A173A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD545546252F8B26008A173A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD44B3F62531B01B00F939B3 /* HolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolderViewController.swift; sourceTree = "<group>"; };
+		CD44B3FB2531B05500F939B3 /* HolderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolderView.xib; sourceTree = "<group>"; };
+		CD44B4002531B1F500F939B3 /* SCUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUtilities.swift; sourceTree = "<group>"; };
+		CD44B40525320EE300F939B3 /* SCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCButton.swift; sourceTree = "<group>"; };
 		CD5454CA252F0951008A173A /* SwiftLoginComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLoginComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5454CD252F0951008A173A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD5454CF252F0951008A173A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +72,8 @@
 		CD5454EE252F0963008A173A /* SwiftLoginComponentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLoginComponentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5454F2252F0963008A173A /* SwiftLoginComponentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoginComponentUITests.swift; sourceTree = "<group>"; };
 		CD5454F4252F0963008A173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD545500252F397A008A173A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CD545546252F8B26008A173A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD44B3FA2531B02700F939B3 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CD44B3FB2531B05500F939B3 /* HolderView.xib */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		CD44B3FF2531B1A700F939B3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CD44B4002531B1F500F939B3 /* SCUtilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CD44B40425320EB900F939B3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				CD44B40525320EE300F939B3 /* SCButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		CD44B40925320F0B00F939B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CD5454C1252F0951008A173A = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +155,19 @@
 		CD5454CC252F0951008A173A /* SwiftLoginComponent */ = {
 			isa = PBXGroup;
 			children = (
+				CD44B40925320F0B00F939B3 /* Extensions */,
+				CD44B3FF2531B1A700F939B3 /* Utilities */,
+				CD545544252F8AB2008A173A /* ViewModel */,
+				CD545543252F8AA4008A173A /* View */,
+				CD545542252F8A9A008A173A /* Model */,
 				CD5454CD252F0951008A173A /* AppDelegate.swift */,
 				CD5454CF252F0951008A173A /* SceneDelegate.swift */,
-				CD5454D1252F0951008A173A /* ViewController.swift */,
 				CD5454D3252F0951008A173A /* Main.storyboard */,
 				CD5454D9252F0963008A173A /* Assets.xcassets */,
 				CD5454DB252F0963008A173A /* LaunchScreen.storyboard */,
 				CD5454DE252F0963008A173A /* Info.plist */,
 				CD5454D6252F0951008A173A /* SwiftLoginComponent.xcdatamodeld */,
+				CD545500252F397A008A173A /* UserModel.swift */,
 			);
 			path = SwiftLoginComponent;
 			sourceTree = "<group>";
@@ -129,6 +188,40 @@
 				CD5454F4252F0963008A173A /* Info.plist */,
 			);
 			path = SwiftLoginComponentUITests;
+			sourceTree = "<group>";
+		};
+		CD545542252F8A9A008A173A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD545546252F8B26008A173A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD545543252F8AA4008A173A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD44B40425320EB900F939B3 /* CustomViews */,
+				CD44B3FA2531B02700F939B3 /* StoryBoard */,
+				CD545545252F8AD2008A173A /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD545544252F8AB2008A173A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD545545252F8AD2008A173A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD5454D1252F0951008A173A /* ViewController.swift */,
+				CD44B3F62531B01B00F939B3 /* HolderViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD44B3FC2531B05500F939B3 /* HolderView.xib in Resources */,
 				CD5454DD252F0963008A173A /* LaunchScreen.storyboard in Resources */,
 				CD5454DA252F0963008A173A /* Assets.xcassets in Resources */,
 				CD5454D5252F0951008A173A /* Main.storyboard in Resources */,
@@ -245,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD44B3FD2531B05500F939B3 /* HolderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD44B3FE2531B05500F939B3 /* HolderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +360,12 @@
 			files = (
 				CD5454D2252F0951008A173A /* ViewController.swift in Sources */,
 				CD5454CE252F0951008A173A /* AppDelegate.swift in Sources */,
+				CD44B3F72531B01B00F939B3 /* HolderViewController.swift in Sources */,
+				CD545547252F8B26008A173A /* User.swift in Sources */,
 				CD5454D8252F0951008A173A /* SwiftLoginComponent.xcdatamodeld in Sources */,
+				CD545501252F397A008A173A /* UserModel.swift in Sources */,
+				CD44B4012531B1F500F939B3 /* SCUtilities.swift in Sources */,
+				CD44B40625320EE300F939B3 /* SCButton.swift in Sources */,
 				CD5454D0252F0951008A173A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +374,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD545502252F397A008A173A /* UserModel.swift in Sources */,
+				CD44B40725320EE300F939B3 /* SCButton.swift in Sources */,
+				CD44B4022531B1F500F939B3 /* SCUtilities.swift in Sources */,
 				CD5454E8252F0963008A173A /* SwiftLoginComponentTests.swift in Sources */,
+				CD44B3F82531B01B00F939B3 /* HolderViewController.swift in Sources */,
+				CD545548252F8B26008A173A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +387,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD44B40825320EE300F939B3 /* SCButton.swift in Sources */,
+				CD44B3F92531B01B00F939B3 /* HolderViewController.swift in Sources */,
+				CD545549252F8B26008A173A /* User.swift in Sources */,
+				CD44B4032531B1F500F939B3 /* SCUtilities.swift in Sources */,
 				CD5454F3252F0963008A173A /* SwiftLoginComponentUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
