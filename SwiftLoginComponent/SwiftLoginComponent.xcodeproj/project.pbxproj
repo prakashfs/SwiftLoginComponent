@@ -33,6 +33,9 @@
 		CD545547252F8B26008A173A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD545546252F8B26008A173A /* User.swift */; };
 		CD545548252F8B26008A173A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD545546252F8B26008A173A /* User.swift */; };
 		CD545549252F8B26008A173A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD545546252F8B26008A173A /* User.swift */; };
+		CD8327F52536038000928F0E /* SCTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8327F42536038000928F0E /* SCTextView.swift */; };
+		CD8327F62536038000928F0E /* SCTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8327F42536038000928F0E /* SCTextView.swift */; };
+		CD8327F72536038000928F0E /* SCTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8327F42536038000928F0E /* SCTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,7 @@
 		CD5454F4252F0963008A173A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD545500252F397A008A173A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CD545546252F8B26008A173A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CD8327F42536038000928F0E /* SCTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				CD44B40525320EE300F939B3 /* SCButton.swift */,
+				CD8327F42536038000928F0E /* SCTextView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 				CD5454D2252F0951008A173A /* ViewController.swift in Sources */,
 				CD5454CE252F0951008A173A /* AppDelegate.swift in Sources */,
 				CD44B3F72531B01B00F939B3 /* HolderViewController.swift in Sources */,
+				CD8327F52536038000928F0E /* SCTextView.swift in Sources */,
 				CD545547252F8B26008A173A /* User.swift in Sources */,
 				CD5454D8252F0951008A173A /* SwiftLoginComponent.xcdatamodeld in Sources */,
 				CD545501252F397A008A173A /* UserModel.swift in Sources */,
@@ -378,6 +384,7 @@
 				CD44B40725320EE300F939B3 /* SCButton.swift in Sources */,
 				CD44B4022531B1F500F939B3 /* SCUtilities.swift in Sources */,
 				CD5454E8252F0963008A173A /* SwiftLoginComponentTests.swift in Sources */,
+				CD8327F62536038000928F0E /* SCTextView.swift in Sources */,
 				CD44B3F82531B01B00F939B3 /* HolderViewController.swift in Sources */,
 				CD545548252F8B26008A173A /* User.swift in Sources */,
 			);
@@ -388,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD44B40825320EE300F939B3 /* SCButton.swift in Sources */,
+				CD8327F72536038000928F0E /* SCTextView.swift in Sources */,
 				CD44B3F92531B01B00F939B3 /* HolderViewController.swift in Sources */,
 				CD545549252F8B26008A173A /* User.swift in Sources */,
 				CD44B4032531B1F500F939B3 /* SCUtilities.swift in Sources */,
