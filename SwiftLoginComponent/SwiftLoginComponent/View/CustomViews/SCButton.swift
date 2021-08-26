@@ -27,7 +27,7 @@ class SCButton : UIButton {
         setTitleColor(.white, for: .normal)
         backgroundColor = .purple
         titleLabel?.font = UIFont(name: "Optima", size: 18)
-        layer.cornerRadius = 5
+        layer.cornerRadius = 10
         layer.borderWidth = 1.5
         layer.borderColor = UIColor.gray.cgColor
     }
